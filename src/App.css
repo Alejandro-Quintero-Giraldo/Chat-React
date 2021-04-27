@@ -1,10 +1,6 @@
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12,16 +8,37 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.SignOut{
+  background-color: black;
+  color: #ffffff;
+  margin-top: 3%;
+  cursor: pointer;
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header{
+  color: #ffffff;
+}
+
+.messages{
+  font-size: 12;
+  color: #ffffff;
+}
+
+div form input{
+  margin-right: 5%;
+  cursor:pointer;
+}
+
+div form button{
+  color: #ffffff;
+  background-color: black;
+  width: 7%;
+  cursor:pointer;
+}
+
+div img{
+  border-radius: 50%;
+  border: 2px solid black;
 }
 
 .App-link {
